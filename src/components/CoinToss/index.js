@@ -4,9 +4,8 @@ import {Component} from 'react'
 
 class CoinToss extends Component {
   state = {coinStatus: 0}
-  let total = 0
-  let heads = 0
-  let tails = 0
+  
+  
 
   onUpdateState = () => {
     const tossResult = Math.floor(Math.random() * 2)
